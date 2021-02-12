@@ -5,7 +5,7 @@
     "version": 1.0
   },
   "invite_link": "https://discord.com/api/oauth2/authorize?client_id=809533692690825226&permissions=387136&scope=bot",
-  "discord_link": "https://discord.gg/ntP87vwEAV",
+  "discord_link": "https://discord.gg/m7twj7HEMF",
   "cooldown": 5000,
   "page_size": 10,
   "daily": {
@@ -15,46 +15,46 @@
   "emojis": {
     "pokeball": {
       "name": "pokeball",
-      "id": "809782281169403934",
-      "balise": "<:pokeball:809782281169403934>",
+      "id": "805734818624569414",
+      "balise": "<:pokeball:805734818624569414>",
       "proba": 60,
       "price": 25
     },
     "superball": {
       "name": "superball",
-      "id": "809782263733813288",
-      "balise": "<:superball:809782263733813288>",
+      "id": "805733297354833922",
+      "balise": "<:superball:805733297354833922>",
       "proba": 70,
       "price": 75
     },
     "hyperball": {
       "name": "hyperball",
-      "id": "809782254120992778",
-      "balise": "<:hyperball:809782254120992778>",
+      "id": "805733297245388858",
+      "balise": "<:hyperball:805733297245388858>",
       "proba": 80,
       "price": 175
     },
     "masterball": {
       "name": "masterball",
-      "id": "809782241328627802",
-      "balise": "<:masterball:809782241328627802>",
+      "id": "805735525032919041",
+      "balise": "<:masterball:805735525032919041>",
       "proba": 99,
       "price": 500
     },
     "cancel": {
       "name": "cancelfight",
-      "id": "809782290074697759",
-      "balise": "<:cancelfight:809782290074697759>"
+      "id": "806200585790423050",
+      "balise": "<:cancelfight:806200585790423050>"
     },
     "sacha": {
       "name": "sachacry",
-      "id": "809792270228389949",
-      "balise": "<:sachacry:809792270228389949>"
+      "id": "805804994263121972",
+      "balise": "<:sachacry:805804994263121972>"
     },
     "pokecoin": {
       "name": "pokecoin",
-      "id": "809782302049697842",
-      "balise": "<:pokecoin:809782302049697842>"
+      "id": "806638894954709012",
+      "balise": "<:pokecoin:806638894954709012>"
     }
   },
   "color": {
