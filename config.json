@@ -15,46 +15,46 @@
   "emojis": {
     "pokeball": {
       "name": "pokeball",
-      "id": "809541962259628043",
-      "balise": "<:pokeball:809541962259628043>",
+      "id": "809782281169403934",
+      "balise": "<:pokeball:809782281169403934>",
       "proba": 60,
       "price": 25
     },
     "superball": {
       "name": "superball",
-      "id": "809541970610356274",
-      "balise": "<:superball:809541970610356274>",
+      "id": "809782263733813288",
+      "balise": "<:superball:809782263733813288>",
       "proba": 70,
       "price": 75
     },
     "hyperball": {
       "name": "hyperball",
-      "id": "809541934783266828",
-      "balise": "<:hyperball:809541934783266828>",
+      "id": "809782254120992778",
+      "balise": "<:hyperball:809782254120992778>",
       "proba": 80,
       "price": 175
     },
     "masterball": {
       "name": "masterball",
-      "id": "809541951505825813",
-      "balise": "<:masterball:809541951505825813>",
+      "id": "809782241328627802",
+      "balise": "<:masterball:809782241328627802>",
       "proba": 99,
       "price": 500
     },
     "cancel": {
       "name": "cancelfight",
-      "id": "809543407679570030",
-      "balise": "<:cancelfight:809543407679570030>"
+      "id": "809782290074697759",
+      "balise": "<:cancelfight:809782290074697759>"
     },
     "sacha": {
       "name": "sachacry",
-      "id": "809542371879551037",
-      "balise": "<:sachacry:809542371879551037>"
+      "id": "809792270228389949",
+      "balise": "<:sachacry:809792270228389949>"
     },
     "pokecoin": {
       "name": "pokecoin",
-      "id": "809541980040069170",
-      "balise": "<:pokecoin:809541980040069170>"
+      "id": "809782302049697842",
+      "balise": "<:pokecoin:809782302049697842>"
     }
   },
   "color": {
