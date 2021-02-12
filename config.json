@@ -1,0 +1,66 @@
+{
+  "prefix": "$",
+  "bot_info": {
+    "name": "PokeCatch",
+    "version": 1.0
+  },
+  "invite_link": "https://discord.com/api/oauth2/authorize?client_id=809533692690825226&permissions=387136&scope=bot",
+  "discord_link": "https://discord.gg/ntP87vwEAV",
+  "cooldown": 5000,
+  "page_size": 10,
+  "daily": {
+    "money": 500,
+    "pokeball": 10
+  },
+  "emojis": {
+    "pokeball": {
+      "name": "pokeball",
+      "id": "809541962259628043",
+      "balise": "<:pokeball:809541962259628043>",
+      "proba": 60,
+      "price": 25
+    },
+    "superball": {
+      "name": "superball",
+      "id": "809541970610356274",
+      "balise": "<:superball:809541970610356274>",
+      "proba": 70,
+      "price": 75
+    },
+    "hyperball": {
+      "name": "hyperball",
+      "id": "809541934783266828",
+      "balise": "<:hyperball:809541934783266828>",
+      "proba": 80,
+      "price": 175
+    },
+    "masterball": {
+      "name": "masterball",
+      "id": "809541951505825813",
+      "balise": "<:masterball:809541951505825813>",
+      "proba": 99,
+      "price": 500
+    },
+    "cancel": {
+      "name": "cancelfight",
+      "id": "809543407679570030",
+      "balise": "<:cancelfight:809543407679570030>"
+    },
+    "sacha": {
+      "name": "sachacry",
+      "id": "809542371879551037",
+      "balise": "<:sachacry:809542371879551037>"
+    },
+    "pokecoin": {
+      "name": "pokecoin",
+      "id": "809541980040069170",
+      "balise": "<:pokecoin:809541980040069170>"
+    }
+  },
+  "color": {
+    "primary": "#EB423A",
+    "secondary": "#E4E8EA",
+    "error": "#C00000",
+    "success": "#83B578"
+  }
+}
