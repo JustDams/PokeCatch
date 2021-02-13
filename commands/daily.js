@@ -4,6 +4,16 @@ const { emojis, daily, cooldown } = require('../config.json')
 const { deleteEntry, getEntries, getCount } = require('../templates/setFun')
 let awaitingUser = new Set()
 
+const getTimeBeforeNextDaily = time => {
+  const hours = time.getHours()
+  const mins = time.getMinutes()
+  //time before next daily
+  const tbnd = 24 * 3600 - (hours * 3600 + mins * 60)
+  const mbnd = (tbnd % 3600) / 60
+  const hbnd = (tbnd - tbnd % 3600) / 3600
+  return `${hbnd}h${mbnd}m`
+}
+
 const dailyGifts = (userId, user, pokeballInv, dailyDate, String) => {
   String.push(`You received **x${daily.pokeball}** ${emojis.pokeball.balise}`)
   String.push(`And **x${daily.money}** ${emojis.pokecoin.balise} !`)
@@ -60,7 +70,7 @@ module.exports = {
         // Else if it defined then he did daily at least 1 time so we check if it was today
         const nextDay = new Date(user.daily_date.getFullYear(), user.daily_date.getMonth(), user.daily_date.getDate() + 1)
         if (user.daily_date.getFullYear() === dailyDate.getFullYear() && user.daily_date.getMonth() === dailyDate.getMonth() && user.daily_date.getDate() === dailyDate.getDate()) {
-          String.push('**You already got your daily gifts today, come back tomorrow !**')
+          String.push(`<@${message.author.id}>, you need to **wait ${getTimeBeforeNextDaily(dailyDate)}** before picking up your **next daily gifts** !`)
           // Then we check if he did !daily the day before for the Streak
         } else if (nextDay.getFullYear() === dailyDate.getFullYear() && nextDay.getMonth() === dailyDate.getMonth() && nextDay.getDate() === dailyDate.getDate()) {
           String.push(`You're on a **${user.daily_count + 1} daily streak**`)
