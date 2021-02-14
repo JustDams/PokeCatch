@@ -32,7 +32,7 @@ module.exports = {
           const pokeImage = data.sprites.front_default
           const inv = await Inventory.whereNotNull(userId)
           const emojisIdArray = []
-          const emojisArray = [emojis.pokeball, emojis.superball, emojis.hyperball, emojis.cancel]
+          const emojisArray = [emojis.pokeball, emojis.superball, emojis.hyperball,emojis.masterball, emojis.cancel]
           for (const i of inv) {
             emojisIdArray.push(i.item_id)
           }
