@@ -2,7 +2,8 @@
   "prefix": "$",
   "bot_info": {
     "name": "PokeCatch",
-    "version": 1.0
+    "version": 1.4,
+    "github": "https://github.com/JustDams/PokeCatch"
   },
   "invite_link": "https://discord.com/api/oauth2/authorize?client_id=809533692690825226&permissions=387136&scope=bot",
   "discord_link": "https://discord.gg/KHnPrGhwvV",

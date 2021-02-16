@@ -21,6 +21,7 @@ module.exports = {
       const infosCard = card
       infosCard.fields = []
       infosCard
+        .addField(`Github: ${bot_info.github}`, true)
         .addField('Github\'s of bot creators:', '@JusDams\n@Weder77\n@Sheraw91\n@MENT3', true)
         .addField('Version:', `${bot_info.version}`, true)
         .attachFiles('./assets/logo.png')
