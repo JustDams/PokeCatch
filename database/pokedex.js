@@ -6,6 +6,15 @@ const get = async (userId) => {
   return pokedex
 }
 
+const count = async () => {
+  const pokedex = await Pokedex.aggregate([{
+    $group: {
+      _id: '$discord_id', count: { $sum: 1 }
+    }
+  }]).sort({ 'count': -1 }).exec()
+  return pokedex
+}
+
 // Check if we already caught the pokemon
 const exists = async (userId, pokemonName) => {
   const pokedex = await getOne(userId, pokemonName)
@@ -44,5 +53,6 @@ module.exports = {
   exists,
   updateCount,
   getOne,
-  add
+  add,
+  count
 }

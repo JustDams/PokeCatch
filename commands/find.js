@@ -9,7 +9,7 @@ let awaitingChannel = new Set()
 
 module.exports = {
   name: 'find',
-  aliasses: ['find'],
+  aliasses: ['find','f'],
   options: '',
   description: 'Find a pokemon',
   type: 'game',
