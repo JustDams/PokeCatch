@@ -29,7 +29,7 @@ const getPokemonFromPokedex = async (pokemonArray, message) => {
 
 module.exports = {
   name: 'pokedex',
-  aliasses: ['pokedex'],
+  aliasses: ['pokedex','pd'],
   options: ' {pokemon name}',
   description: 'List all your pokemons, or shows you the image of tthe {pokemon name}',
   type: 'game',
