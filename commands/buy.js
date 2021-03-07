@@ -41,7 +41,7 @@ module.exports = {
           const price = pokemon[0].price
 
           if (seller[0].discord_id !== userId)
-            if (user[0].money <= price) {
+            if (user[0].money < price) {
               message.channel.send(buyCard.setColor(color.error)
                 .setDescription(`You don't have enought money to buy that pokemon !`))
             } else {
